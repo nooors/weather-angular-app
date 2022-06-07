@@ -1,0 +1,3 @@
+// Podemos llamar al archivo sin especificar la ruta porque en angular.json hemos utilizado la propiedad "stylePreprocessorOptions"
+// para indicar el path al preposezador de esta manera >>>>> "stylePreprocessorOptions": { "includePaths": ["src/sass"] }<<<<<<<<<<
+@import 'variables'
