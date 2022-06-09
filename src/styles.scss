@@ -19,7 +19,7 @@ input {
 }
 
 body {
-    font-family: 'Lato', sand-serif;
+    font-family: 'Lato', sans-serif;
     background-color: $secondary-color;
     font-size: 1rem;
     line-height: 1.5;
@@ -57,4 +57,10 @@ a {
 .py-auto{
     padding-left: auto;
     padding-right: auto;
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 95%;
+    }
 }
