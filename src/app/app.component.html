@@ -1,9 +1,7 @@
 <nav class="nav">
-  <div class="nav__menu">
-    <a [routerLink]="['/']">Wather APP</a>
-  </div>
+  <a class="brand" [routerLink]="['/']">Wather APP</a>
 </nav>
-<div class="container">
-  <app-search></app-search>
+<div class="container mx-auto">
+  <app-search (submitted)="onSearch($event)"></app-search>
   <app-weather></app-weather>
 </div>

@@ -1,0 +1,16 @@
+// I can import this way because of this line added in angular.json
+//  "stylePreprocessorOptions": { "includePaths": ["src/sass"] }
+@import 'variables';
+.search {
+    margin-top: 1.5rem;
+    &__input{
+        border-bottom: 2px solid rgba(156,163,175,.44);
+        font-size: 1.3rem;
+        padding: .5rem;
+        width: 100%;
+
+        &:focus{
+            outline: hsl(271, 89%, 50%) solid 2px;
+        }
+    }
+}

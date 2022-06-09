@@ -1,3 +1,16 @@
 // Podemos llamar al archivo sin especificar la ruta porque en angular.json hemos utilizado la propiedad "stylePreprocessorOptions"
 // para indicar el path al preposezador de esta manera >>>>> "stylePreprocessorOptions": { "includePaths": ["src/sass"] }<<<<<<<<<<
-@import 'variables'
+@import 'variables';
+
+nav.nav {
+    padding: 0.75rem .5rem;
+    background-color: $main-color;
+    margin-bottom: 0.75rem;
+
+    .brand {
+        color: $white;
+        font-weight: 600;
+        height: 1.75rem;
+        font-size: 1.50rem;
+    }
+}
